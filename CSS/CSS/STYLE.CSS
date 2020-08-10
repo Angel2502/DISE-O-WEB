@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ body {
+    font-family: "sans-serif";
+ }   
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 10000px;
+     margin: auto;
+     overflow: hidden;
+}
+}
+ /*header*/
+ header {
+     width: 100px;
+     height: 600px;
+     /*fallback for old browsers */
+     background: -webkit-repeating-linear-gradient(to right);
+     /*w3c IE 10+ Edge,firebox 16+, chrome 26+, opera 12+,safari 7+ */
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+ }
+
+  
